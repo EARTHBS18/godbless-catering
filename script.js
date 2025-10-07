@@ -132,7 +132,7 @@ function sendToWhatsApp(data) {
                    `_Pesan ➡ Panjar ➡ OK_%0A` +
                    `_Ongkir menyesuaikan lokasi_`;
     
-    const phoneNumber = '6281234567890'; // Ganti dengan nomor catering
+    const phoneNumber = '6287761329975'; // Ganti dengan nomor catering
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
     
     // Open WhatsApp in new tab
@@ -325,4 +325,5 @@ document.getElementById('orderForm').addEventListener('submit', function() {
 });
 
 console.log('🎉 GODBLESS CATERING Website loaded successfully!');
+
 console.log('✨ Created with love by Michael, Jonathan & Chelsea');
